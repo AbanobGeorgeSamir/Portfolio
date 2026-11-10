@@ -2,7 +2,7 @@
 
 My personal developer portfolio — a fast, responsive single-page application showcasing my projects, skills, and experience.
 
-**[🔗 Live Site](https://github.com/AbanobGeorgeSamir/Portfolio)**
+[![Live Site](https://img.shields.io/badge/Live_Site-devabanobgeorge.vercel.app-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white)](https://devabanobgeorge.vercel.app)
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
@@ -51,4 +51,4 @@ npm run preview
 
 ## 👤 Author
 
-**Abanoub George Samir** — [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
+**Abanoub George Samir** — [Portfolio](https://devabanobgeorge.vercel.app) · [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
