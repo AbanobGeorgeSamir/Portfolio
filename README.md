@@ -1,52 +1,54 @@
-# Portfolio
+# 🗂️ Portfolio
 
-Personal portfolio website of Abanoub George, a Junior Full-Stack Developer. It presents featured projects with live demos and source links, a skills overview and contact details.
+My personal developer portfolio — a fast, responsive single-page application showcasing my projects, skills, and experience.
 
-**[Live site](https://abanobgeorgedev.netlify.app)**
+**[🔗 Live Site](https://github.com/AbanobGeorgeSamir/Portfolio)**
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
 
-<!-- Add a screenshot here, for example: ![Portfolio](docs/portfolio.png) -->
+## ✨ Features
 
-## Sections
+- ⚡ Blazing-fast build with Vite
+- 📱 Fully responsive on all screen sizes
+- 🎨 Smooth animations and clean UI
+- 📬 Contact section with direct email link
+- 🗂️ Projects, skills, and experience sections
 
-- **Hero:** name and role
-- **Skills:** technologies I work with
-- **Projects:** featured full-stack projects with live demos and source code
-- **Contact:** email, WhatsApp and GitHub
-- Responsive layout with scroll animations
+## 🛠️ Tech Stack
 
-## Tech Stack
+| Layer | Technology |
+|---|---|
+| Framework | React 18 |
+| Build Tool | Vite |
+| Styling | CSS Modules / Custom CSS |
+| Language | JavaScript (ES2022+) |
 
-React 19, Vite, plain CSS and ESLint. Deployed on Netlify.
-
-## Project Structure
-
-```text
-src/components/   Navbar, Hero, Skills, Projects, Contact, Footer
-src/App.jsx       Page layout
-public/skills/    Skill icons
-```
-
-## Getting Started
+## 🚀 Getting Started
 
 ```bash
+# Clone the repository
 git clone https://github.com/AbanobGeorgeSamir/Portfolio.git
 cd Portfolio
+
+# Install dependencies
 npm install
+
+# Start development server
 npm run dev
 ```
 
-| Script | Purpose |
-| --- | --- |
-| `npm run dev` | Start the development server |
-| `npm run build` | Create a production build |
-| `npm run preview` | Preview the production build |
-| `npm run lint` | Run ESLint |
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## Contact
+## 📦 Build for Production
 
-[samirabanob848@gmail.com](mailto:samirabanob848@gmail.com) · [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
+```bash
+npm run build
+npm run preview
+```
+
+## 👤 Author
+
+**Abanoub George Samir** — [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
