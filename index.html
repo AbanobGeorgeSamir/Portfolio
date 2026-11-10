@@ -2,12 +2,70 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abanob George | Full-Stack Developer</title>
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#09090a" />
+
+    <title>Abanob George Samir — Full-Stack Developer</title>
+    <meta
+      name="description"
+      content="Abanob George Samir is a full-stack developer in Cairo building considered web products with Laravel, React, PHP and Node.js."
+    />
+    <meta name="author" content="Abanob George Samir" />
+    <link rel="canonical" href="https://devabanobgeorge.vercel.app/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Abanob George Samir — Full-Stack Developer" />
+    <meta
+      property="og:description"
+      content="Portfolio of Abanob George Samir — Laravel, React, PHP and Node.js. Quiet interfaces, solid engineering."
+    />
+    <meta property="og:url" content="https://devabanobgeorge.vercel.app/" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:ital,wght@0,300..700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("ag-portfolio-theme");
+          var theme =
+            stored === "light" || stored === "dark"
+              ? stored
+              : window.matchMedia("(prefers-color-scheme: light)").matches
+                ? "light"
+                : "dark";
+          document.documentElement.dataset.theme = theme;
+          if (theme === "light") {
+            document
+              .querySelector('meta[name="theme-color"]')
+              .setAttribute("content", "#f3f0e9");
+          }
+        } catch (error) {
+          document.documentElement.dataset.theme = "dark";
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <p style="padding: 2rem; font-family: Georgia, serif; color: #edeae3; background: #09090a">
+        Abanob George Samir — full-stack developer in Cairo. This portfolio needs
+        JavaScript to run. Reach me at
+        <a href="mailto:samirabanob848@gmail.com" style="color: #d8a66d">
+          samirabanob848@gmail.com
+        </a>
+        or on
+        <a href="https://github.com/AbanobGeorgeSamir" style="color: #d8a66d">GitHub</a>.
+      </p>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
