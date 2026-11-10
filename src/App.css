@@ -925,6 +925,122 @@ html.is-ready .hero [data-rise] {
   max-width: 60ch;
 }
 
+/* ---------------- certificates ---------------- */
+
+.certificates {
+  border-top: 1px solid var(--line);
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
+  gap: clamp(2rem, 6vw, 6rem);
+  align-items: start;
+}
+
+.cert-aside {
+  position: sticky;
+  top: 7rem;
+}
+
+.cert-lede {
+  margin-top: 1.2rem;
+  max-width: 30ch;
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--text-dim);
+}
+
+.cert-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.6rem;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.cert-list {
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.cert-list li {
+  border-bottom: 1px solid var(--line);
+}
+
+.cert-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 5.5rem 4.5rem;
+  gap: 1rem;
+  align-items: baseline;
+  padding: 1.05rem 0.2rem;
+  transition: padding 0.5s var(--ease), color 0.4s var(--ease);
+}
+
+a.cert-row:hover {
+  padding-inline: 0.85rem;
+  color: var(--accent);
+}
+
+.cert-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+}
+
+.cert-title {
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.cert-issuer {
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  color: var(--text-faint);
+}
+
+.cert-date {
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.cert-verify {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  justify-self: end;
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  transition: color 0.4s var(--ease);
+}
+
+.cert-verify svg {
+  transition: transform 0.5s var(--ease);
+}
+
+a.cert-row:hover .cert-verify {
+  color: var(--accent);
+}
+
+a.cert-row:hover .cert-verify svg {
+  transform: translate(2px, -2px);
+}
+
+.cert-verify-muted {
+  color: var(--text-faint);
+}
+
 /* ---------------- contact ---------------- */
 
 .contact {
@@ -1219,6 +1335,14 @@ html.is-ready .hero [data-rise] {
     position: static;
   }
 
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-aside {
+    position: static;
+  }
+
   .about-title {
     max-width: 20ch;
   }
@@ -1348,6 +1472,15 @@ html.is-ready .hero [data-rise] {
 
   .social-list {
     grid-template-columns: 1fr;
+  }
+
+  .cert-row {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 0.75rem;
+  }
+
+  .cert-date {
+    display: none;
   }
 
   .social-list a {

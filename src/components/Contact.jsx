@@ -24,7 +24,7 @@ export default function Contact() {
       <div className="contact-glow" aria-hidden="true" />
       <div className="shell">
         <span className="label" data-reveal>
-          04 — Contact
+          05 — Contact
         </span>
 
         <h2 className="contact-title" data-reveal style={{ "--d": "80ms" }}>

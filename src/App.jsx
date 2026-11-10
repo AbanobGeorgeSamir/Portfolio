@@ -8,6 +8,7 @@ import Marquee from "./components/Marquee";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Skills from "./components/Skills";
+import Certificates from "./components/Certificates";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import useRevealOnScroll from "./hooks/useRevealOnScroll";
@@ -51,6 +52,7 @@ export default function App() {
         <Projects />
         <About />
         <Skills />
+        <Certificates />
         <Contact />
       </main>
 

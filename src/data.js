@@ -139,6 +139,63 @@ export const skillGroups = [
   },
 ];
 
+export const certificates = [
+  {
+    title: "Programming in C",
+    issuer: "University of Michigan · Coursera",
+    date: "Nov 2026",
+    verify: "https://coursera.org/verify/0IUPJC1WR4AN",
+  },
+  {
+    title: "Getting Started with Cisco Packet Tracer",
+    issuer: "Cisco Networking Academy",
+    date: "Nov 2025",
+    verify: null,
+  },
+  {
+    title: "HTML Essentials",
+    issuer: "Cisco Networking Academy",
+    date: "Nov 2025",
+    verify: null,
+  },
+  {
+    title: "Frontend Development",
+    issuer: "One Roadmap",
+    date: "Dec 2025",
+    verify: "https://oneroadmap.io/skills/frontend/certificate/CERT-98ACB4E7",
+  },
+  {
+    title: "React.js Developer",
+    issuer: "One Roadmap",
+    date: "Dec 2025",
+    verify: "https://oneroadmap.io/skills/react/certificate/CERT-79B1DC12",
+  },
+  {
+    title: "SQL",
+    issuer: "One Roadmap",
+    date: "Dec 2025",
+    verify: "https://oneroadmap.io/skills/sql/certificate/CERT-F7323A71",
+  },
+  {
+    title: "CSS",
+    issuer: "One Roadmap",
+    date: "Dec 2025",
+    verify: "https://oneroadmap.io/skills/css/certificate/CERT-83CAEA63",
+  },
+  {
+    title: "Python",
+    issuer: "One Roadmap",
+    date: "Dec 2025",
+    verify: "https://oneroadmap.io/skills/python/certificate/CERT-95215401",
+  },
+  {
+    title: "Excel",
+    issuer: "One Roadmap",
+    date: "Dec 2025",
+    verify: "https://oneroadmap.io/skills/excel/certificate/CERT-91AB8ACB",
+  },
+];
+
 export const principles = [
   {
     title: "Clarity first",
