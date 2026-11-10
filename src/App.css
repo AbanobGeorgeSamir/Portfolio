@@ -849,7 +849,7 @@ html.is-ready .hero [data-rise] {
 
 .stack-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1px;
   background: var(--line);
   border: 1px solid var(--line);
@@ -1203,6 +1203,12 @@ html.is-ready .hero [data-rise] {
 }
 
 /* ---------------- responsive ---------------- */
+
+@media (max-width: 1180px) {
+  .stack-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
 
 @media (max-width: 1080px) {
   .about-grid {

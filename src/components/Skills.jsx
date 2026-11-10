@@ -44,8 +44,8 @@ export default function Skills() {
         </div>
 
         <p className="skills-note" data-reveal>
-          Also comfortable with Git, REST APIs, responsive design systems and
-          reading someone else's code before rewriting it.
+          The full list, including education and certifications, lives in my CV
+          — happy to send it over.
         </p>
       </div>
     </section>
