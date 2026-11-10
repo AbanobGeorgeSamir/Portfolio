@@ -1,6 +1,6 @@
-# Abanob George — Portfolio
+# Abanoub George — Portfolio
 
-A hand-built portfolio for **Abanob George Samir**, full-stack developer in Cairo.
+A hand-built portfolio for **Abanoub George Samir**, full-stack developer in Cairo.
 Editorial typography, considered motion and no UI kit — every layout, colour and
 transition is written by hand in React and CSS.
 
@@ -83,6 +83,6 @@ its hover plate pick it up automatically.
 
 ## Author
 
-**Abanob George Samir** — [Portfolio](https://devabanobgeorge.vercel.app) ·
+**Abanoub George Samir** — [Portfolio](https://devabanobgeorge.vercel.app) ·
 [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) ·
 [GitHub](https://github.com/AbanobGeorgeSamir)

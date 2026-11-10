@@ -35,11 +35,11 @@ export default function Footer() {
       </div>
 
       <div className="footer-word" aria-hidden="true">
-        Abanob George
+        Abanoub George
       </div>
 
       <div className="shell footer-bottom">
-        <span>© {new Date().getFullYear()} Abanob George Samir</span>
+        <span>© {new Date().getFullYear()} Abanoub George Samir</span>
         <span className="footer-clock">
           <i aria-hidden="true" /> {time || "—"} Cairo
         </span>

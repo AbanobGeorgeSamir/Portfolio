@@ -87,9 +87,9 @@ export default function Navbar({ theme, onToggleTheme }) {
   return (
     <>
       <header className={`nav ${scrolled ? "is-scrolled" : ""}`}>
-        <a className="brand" href="#top" aria-label="Abanob George — back to top">
+        <a className="brand" href="#top" aria-label="Abanoub George — back to top">
           <span className="brand-mark">AG</span>
-          <span className="brand-name">Abanob George</span>
+          <span className="brand-name">Abanoub George</span>
         </a>
 
         <nav className="nav-links" aria-label="Primary">

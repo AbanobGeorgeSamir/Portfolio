@@ -29,7 +29,7 @@ export default function Hero() {
 
         <h1 className="hero-name">
           <span className="hero-line" style={{ "--delay": "80ms" }}>
-            <span>Abanob</span>
+            <span>Abanoub</span>
           </span>
           <span className="hero-line" style={{ "--delay": "200ms" }}>
             <span>

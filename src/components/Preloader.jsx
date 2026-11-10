@@ -51,7 +51,7 @@ export default function Preloader({ onDone }) {
       aria-hidden="true"
     >
       <div className="preloader-center">
-        <span className="preloader-mark">Abanob George</span>
+        <span className="preloader-mark">Abanoub George</span>
         <span className="preloader-sub">Portfolio — 2026</span>
         <div className="preloader-bar">
           <i style={{ transform: `scaleX(${pct / 100})` }} />
