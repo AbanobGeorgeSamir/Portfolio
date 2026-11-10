@@ -150,13 +150,13 @@ export const certificates = [
     title: "Getting Started with Cisco Packet Tracer",
     issuer: "Cisco Networking Academy",
     date: "Nov 2025",
-    verify: null,
+    verify: "https://drive.google.com/file/d/1-KDwORjumIcRmtZf86QIoYUySJsQ5uHc",
   },
   {
     title: "HTML Essentials",
     issuer: "Cisco Networking Academy",
     date: "Nov 2025",
-    verify: null,
+    verify: "https://drive.google.com/file/d/1-KDwORjumIcRmtZf86QIoYUySJsQ5uHc",
   },
   {
     title: "Frontend Development",
@@ -193,7 +193,7 @@ export const certificates = [
     issuer: "One Roadmap",
     date: "Dec 2025",
     verify: "https://oneroadmap.io/skills/excel/certificate/CERT-91AB8ACB",
-  },
+  }
 ];
 
 export const principles = [
