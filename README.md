@@ -1,96 +1,52 @@
-# 🚀 Abanob George Portfolio
+# Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, and experience as a Full-Stack Web Developer.
+Personal portfolio website of Abanoub George, a Junior Full-Stack Developer. It presents featured projects with live demos and source links, a skills overview and contact details.
 
-## 🌟 About Me
+**[Live site](https://abanobgeorgedev.netlify.app)**
 
-Hello! I'm **Abanob George**, a passionate Full-Stack Web Developer and student at **WE School for Applied Technology**. I enjoy creating modern, responsive, and user-friendly web applications while continuously learning new technologies and best practices in software development.
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)
 
-## 🛠️ Tech Stack
+<!-- Add a screenshot here, for example: ![Portfolio](docs/portfolio.png) -->
 
-### Frontend
+## Sections
 
-* React.js
-* JavaScript (ES6+)
-* HTML5
-* CSS3
-* Bootstrap
-* Tailwind CSS
+- **Hero:** name and role
+- **Skills:** technologies I work with
+- **Projects:** featured full-stack projects with live demos and source code
+- **Contact:** email, WhatsApp and GitHub
+- Responsive layout with scroll animations
 
-### Backend
+## Tech Stack
 
-* PHP
-* Laravel
-* MySQL
+React 19, Vite, plain CSS and ESLint. Deployed on Netlify.
 
-### Tools & Platforms
+## Project Structure
 
-* Git & GitHub
-* Visual Studio Code
-* Postman
-* Netlify
+```text
+src/components/   Navbar, Hero, Skills, Projects, Contact, Footer
+src/App.jsx       Page layout
+public/skills/    Skill icons
+```
 
-## ✨ Features
-
-* Responsive Design
-* Modern and Clean UI
-* About Me Section
-* Skills Showcase
-* Projects Portfolio
-* Contact Section
-* Smooth Navigation
-* Optimized Performance
-
-## 🔗 Live Demo
-
-Visit the live portfolio:
-
-**https://abanobgeorgedev.netlify.app**
-
-## 📸 Screenshots
-
-Add screenshots of your portfolio here.
-
-## 📥 Installation
-
-Clone the repository:
+## Getting Started
 
 ```bash
 git clone https://github.com/AbanobGeorgeSamir/Portfolio.git
-```
-
-Navigate to the project directory:
-
-```bash
 cd Portfolio
-```
-
-Install dependencies:
-
-```bash
 npm install
-```
-
-Start the development server:
-
-```bash
 npm run dev
 ```
 
-## 📬 Contact
+| Script | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run ESLint |
 
-* Email: [samirabanob848@gmail.com](mailto:samirabanob848@gmail.com)
-* GitHub: https://github.com/AbanobGeorgeSamir
-* LinkedIn: https://www.linkedin.com/in/abanob-george-samir
+## Contact
 
-## 🤝 Contributing
-
-Contributions, suggestions, and feedback are always welcome. Feel free to open an issue or submit a pull request.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-⭐ If you found this project helpful, please consider giving it a star on GitHub!
+[samirabanob848@gmail.com](mailto:samirabanob848@gmail.com) · [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)
