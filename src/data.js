@@ -150,7 +150,7 @@ export const certificates = [
     title: "Getting Started with Cisco Packet Tracer",
     issuer: "Cisco Networking Academy",
     date: "Nov 2025",
-    verify: "https://drive.google.com/file/d/1-KDwORjumIcRmtZf86QIoYUySJsQ5uHc",
+    verify: "https://drive.google.com/file/d/1Rd5a33hZYykdlnSCWDbGhc7URYV6gLYz",
   },
   {
     title: "HTML Essentials",
