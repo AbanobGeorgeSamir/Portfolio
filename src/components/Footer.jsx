@@ -41,7 +41,7 @@ export default function Footer() {
       <div className="shell footer-bottom">
         <span>© {new Date().getFullYear()} Abanoub George Samir</span>
         <span className="footer-clock">
-          <i aria-hidden="true" /> {time || "—"} Cairo
+          <i aria-hidden="true" /> {time || "—"} South Sinai
         </span>
         <span className="footer-build">Designed &amp; built in React</span>
       </div>

@@ -1,48 +1,39 @@
-# Abanoub George — Portfolio
+# Portfolio
 
-A hand-built portfolio for **Abanoub George Samir**, full-stack developer in Cairo.
-Editorial typography, considered motion and no UI kit — every layout, colour and
-transition is written by hand in React and CSS.
+Personal portfolio of Abanoub George Samir, a Junior Full-Stack Developer. It presents featured projects with live sites and source code, skills, verified certificates and contact details in a hand-built editorial design with light and dark themes.
 
-[![Live Site](https://img.shields.io/badge/Live_Site-devabanobgeorge.vercel.app-d8a66d?style=for-the-badge&logo=vercel&logoColor=white)](https://devabanobgeorge.vercel.app)
+**[Live site](https://devabanobgeorge.vercel.app)**
 
-![React](https://img.shields.io/badge/React-19-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-hand--written-1572B6?style=flat-square&logo=css3&logoColor=white)
+[![CI](https://github.com/AbanobGeorgeSamir/Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/AbanobGeorgeSamir/Portfolio/actions/workflows/ci.yml)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
-## Design
-
-- **Obsidian, bone and copper.** A restrained warm palette on a near-black canvas,
-  with a light "paper" theme that keeps the same typographic voice.
-- **Type as the interface.** *Instrument Serif* for display, *Inter Tight* for
-  everything functional — no gradient hero cards or glassmorphism panels.
-- **One accent, used sparingly.** Copper marks the moment something is interactive.
-- **Grain and hairlines.** A fine film-grain overlay and 1px rules give flat colour
-  a printed, physical feel.
+<!-- Add a screenshot here, for example: ![Portfolio](docs/portfolio.png) -->
 
 ## Features
 
-- Curtain preloader with a live progress counter
-- Custom lerped cursor that scales over interactive elements
-- Kinetic hero: masked line reveals and a pointer-following glow
-- Scroll progress bar, active-section nav and a full-screen mobile menu
-- Editorial project list with a cursor-following image plate for each project
-- Scroll-triggered reveals with staggered delays
-- Light / dark theme toggle, persisted and flash-free via an inline bootstrap script
-- Copy-email contact button with inline confirmation
-- Local Cairo clock in the hero and footer
-- Reduced-motion and keyboard-focus support, skip link, and semantic landmarks
-- Responsive from 320px up
+- Single-page layout: hero, about, projects, skills, certificates and contact
+- Light and dark themes, saved between visits
+- Custom cursor, preloader, scroll-reveal animations and a skills marquee
+- Responsive layout with a project list that previews each project on hover
+- Content lives in one file, `src/data.js`, so updating projects, skills or certificates needs no component changes
+- Search-friendly page title, description and Open Graph tags, plus a no-JavaScript fallback message
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Framework | React 19 |
-| Build tool | Vite 8 |
-| Styling | Hand-written CSS with custom properties |
-| Fonts | Instrument Serif & Inter Tight (Google Fonts) |
-| Dependencies | React and React DOM only |
+React, Vite, plain CSS and ESLint. No UI kit or template. Hosted on Vercel.
+
+## Project Structure
+
+```text
+src/data.js         Profile, projects, skills, certificates and links
+src/components/     Navbar, Hero, About, Projects, Skills, Certificates, Contact, Footer
+src/hooks/          Reusable hooks (for example, the live local clock)
+src/App.jsx         Page layout and theme handling
+public/             Static assets
+```
 
 ## Getting Started
 
@@ -53,36 +44,17 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173).
+| Script | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build in `dist` |
+| `npm run preview` | Preview the production build |
+| `npm run lint` | Run ESLint |
 
-## Build
+## Deployment
 
-```bash
-npm run build
-npm run preview
-```
+Import the repository into Vercel. The defaults work: build command `npm run build`, output directory `dist`.
 
-## Structure
+## Contact
 
-```
-src/
-├─ components/   Navbar, Hero, Marquee, Projects, About, Skills, Contact, Footer
-│                Preloader, Cursor
-├─ hooks/        useRevealOnScroll, useLocalTime, useTheme
-├─ data.js       Profile, projects, skills, principles and social links
-├─ App.jsx       Section composition and theme state
-├─ index.css     Design tokens, base styles, cursor and preloader
-└─ App.css       Section layouts, responsive rules and keyframes
-```
-
-## Editing content
-
-All copy lives in `src/data.js`: profile and social links, the project list, skill
-groups and principles. Adding a project only needs an entry there — the list and
-its hover plate pick it up automatically.
-
-## Author
-
-**Abanoub George Samir** — [Portfolio](https://devabanobgeorge.vercel.app) ·
-[LinkedIn](https://www.linkedin.com/in/abanob-george-samir) ·
-[GitHub](https://github.com/AbanobGeorgeSamir)
+[devabanoubgeorge@gmail.com](mailto:devabanoubgeorge@gmail.com) · [LinkedIn](https://www.linkedin.com/in/abanob-george-samir) · [GitHub](https://github.com/AbanobGeorgeSamir)

@@ -19,8 +19,8 @@ export default function About() {
 
         <div className="about-body">
           <p className="about-lede" data-reveal>
-            I'm a full-stack developer based in Cairo. I spend most of my time
-            in Laravel and PHP on the server, React on the client, and the
+            I'm a full-stack developer based in South Sinai, Egypt. I spend most of
+            my time in Node.js, Laravel and PHP on the server, React on the client, and the
             unglamorous middle ground — data models, states, the small
             transitions — where a product actually starts to feel good.
           </p>

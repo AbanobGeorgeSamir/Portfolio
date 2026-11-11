@@ -123,7 +123,7 @@ export default function Projects() {
           <a href={profile.github} target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
-          . Each project links to its source.
+          . Each project opens its live site or its source code.
         </p>
       </div>
 

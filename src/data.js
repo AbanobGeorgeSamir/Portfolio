@@ -4,70 +4,70 @@ export const profile = {
   last: "George",
   lastAlt: "Samir",
   role: "Full-stack developer",
-  email: "samirabanob848@gmail.com",
+  email: "devabanoubgeorge@gmail.com",
   phone: "01068992594",
   whatsapp: "https://wa.me/201068992594",
   github: "https://github.com/AbanobGeorgeSamir",
   linkedin: "https://www.linkedin.com/in/abanob-george-samir",
   live: "https://devabanobgeorge.vercel.app",
-  location: "Cairo, Egypt",
+  location: "South Sinai, Egypt",
 };
 
 export const projects = [
   {
-    title: "Restaurant",
+    title: "Luxe Store",
     blurb:
-      "A Laravel application for running restaurant operations — menus, orders and reservations behind one clean, fast interface.",
+      "A MERN e-commerce platform: a 20-endpoint Express API, JWT sessions in HttpOnly cookies, atomic stock updates at checkout and an admin dashboard. Live on Vercel.",
+    year: "2026",
+    tags: ["React", "Express", "MongoDB"],
+    link: "https://e-commerce-frontend-abanob-server.vercel.app",
+    mark: "L",
+    colors: ["#12151c", "#6d86b8", "#dbe3f2"],
+  },
+  {
+    title: "El Tur Coptic",
+    blurb:
+      "One REST API with 70+ endpoints serving a React web app and a Flutter app, with role-based admin access across six study groups. Live on Vercel.",
+    year: "2026",
+    tags: ["React", "Flutter", "Express", "MongoDB"],
+    link: "https://eltur-coptic.vercel.app",
+    mark: "E",
+    colors: ["#1d1716", "#b8704f", "#f0ddd2"],
+  },
+  {
+    title: "Task Manager",
+    blurb:
+      "A per-user task app with JWT authentication, Redux Toolkit state, category and priority filters and a secured CRUD API.",
+    year: "2026",
+    tags: ["React", "Express", "MongoDB"],
+    link: "https://github.com/AbanobGeorgeSamir/Task-Manager",
+    mark: "T",
+    colors: ["#121a22", "#4d7ba6", "#d5e2ee"],
+  },
+  {
+    title: "E-Commerce: Laravel + React",
+    blurb:
+      "A Laravel 13 API with Sanctum authentication and a row-locked checkout transaction, paired with a React 19 single-page app and admin panel.",
+    year: "2026",
+    tags: ["Laravel", "React", "Sanctum"],
+    link: "https://github.com/AbanobGeorgeSamir/Ecommerce-Laravel-ReactJS",
+    mark: "E",
+    colors: ["#1b1416", "#b0485a", "#f1d9de"],
+  },
+  {
+    title: "Restaurant Manager",
+    blurb:
+      "A Laravel app for meal and category administration on MongoDB Atlas, with Docker support and a Vercel deployment configuration.",
     year: "2025",
-    tags: ["Laravel", "MySQL", "Blade"],
+    tags: ["Laravel", "MongoDB", "Docker"],
     link: "https://github.com/AbanobGeorgeSamir/Restaurant",
     mark: "R",
     colors: ["#241811", "#b96b3c", "#ead8c3"],
   },
   {
-    title: "Task Manager",
-    blurb:
-      "Create, edit and organise tasks in a Laravel and PHP app built around a deliberately quiet, focused workflow.",
-    year: "2025",
-    tags: ["Laravel", "PHP", "MySQL"],
-    link: "https://github.com/AbanobGeorgeSamir/TaskManager",
-    mark: "T",
-    colors: ["#121a22", "#4d7ba6", "#d5e2ee"],
-  },
-  {
-    title: "Meals",
-    blurb:
-      "A responsive recipe site where every dish gets room to breathe — imagery, detail and a layout that holds up on any screen.",
-    year: "2024",
-    tags: ["JavaScript", "HTML", "CSS"],
-    link: "https://github.com/AbanobGeorgeSamir/Meals",
-    mark: "M",
-    colors: ["#1b2215", "#7c9850", "#e4ecd8"],
-  },
-  {
-    title: "Chess Game",
-    blurb:
-      "Chess in Python and Pygame: full piece movement, turn logic and a board that rewards careful, deliberate play.",
-    year: "2024",
-    tags: ["Python", "Pygame"],
-    link: "https://github.com/AbanobGeorgeSamir/ChessGame",
-    mark: "C",
-    colors: ["#191919", "#7e7e7e", "#e6e3db"],
-  },
-  {
-    title: "Snake Game",
-    blurb:
-      "The classic, rebuilt — smooth grid movement, live scoring and instant restart, written in Python with Pygame.",
-    year: "2024",
-    tags: ["Python", "Pygame"],
-    link: "https://github.com/AbanobGeorgeSamir/SnakeGame",
-    mark: "S",
-    colors: ["#132019", "#4c8869", "#dcebe1"],
-  },
-  {
     title: "Portfolio",
     blurb:
-      "This site: a hand-built React and Vite portfolio with an editorial eye, considered motion and no template in sight.",
+      "This site: a hand-built React and Vite portfolio with an editorial eye, considered motion and no template in sight. Live on Vercel.",
     year: "2026",
     tags: ["React", "Vite", "CSS"],
     link: "https://github.com/AbanobGeorgeSamir/Portfolio",
@@ -131,7 +131,7 @@ export const skillGroups = [
       "PHPUnit & Node test runner",
       "Postman",
       "Agile",
-      "Vercel · Netlify · Firebase",
+      "Docker · Vercel · Firebase",
       "UI/UX & wireframing",
       "Scripting & automation",
       "Debugging",
