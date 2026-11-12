@@ -9,7 +9,7 @@ export const profile = {
   whatsapp: "https://wa.me/201068992594",
   github: "https://github.com/AbanobGeorgeSamir",
   linkedin: "https://www.linkedin.com/in/abanob-george-samir",
-  live: "https://devabanobgeorge.vercel.app",
+  live: "https://devabanoubgeorge.vercel.app",
   location: "South Sinai, Egypt",
 };
 
@@ -215,7 +215,7 @@ export const socials = [
   { label: "GitHub", href: profile.github, meta: "@AbanobGeorgeSamir" },
   { label: "LinkedIn", href: profile.linkedin, meta: "/in/abanob-george-samir" },
   { label: "WhatsApp", href: profile.whatsapp, meta: profile.phone },
-  { label: "Live site", href: profile.live, meta: "devabanobgeorge.vercel.app" },
+  { label: "Live site", href: profile.live, meta: "devabanoubgeorge.vercel.app" },
 ];
 
 export const marqueeItems = [

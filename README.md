@@ -2,7 +2,7 @@
 
 Personal portfolio of Abanoub George Samir, a Junior Full-Stack Developer. It presents featured projects with live sites and source code, skills, verified certificates and contact details in a hand-built editorial design with light and dark themes.
 
-**[Live site](https://devabanobgeorge.vercel.app)**
+**[Live site](https://devabanoubgeorge.vercel.app)**
 
 [![CI](https://github.com/AbanobGeorgeSamir/Portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/AbanobGeorgeSamir/Portfolio/actions/workflows/ci.yml)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
